@@ -1,8 +1,10 @@
-function MouseEvent(name){
+  
+function Mouse(name){
     this.name = name;
     this.dead = false;
 }
+
 Mouse.prototype.die = function(){
     this.dead = true;
 }
-module.exprots = Mouse;
+module.exports = Mouse;
